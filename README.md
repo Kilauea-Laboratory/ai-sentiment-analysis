@@ -2,9 +2,11 @@
 <h1 align="center">AI Sentiment Analysis on Reddit Discussions</h1>
 <h1 align="center">:robot:</h1>
 
+<div align="center">
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+</div>
 
 ### Background:
 This repository contains the code and documentation for a project focused on accurately classifying AI-related discussions on Reddit into positive, negative, or neutral sentiments. The main objectives of the project were to conduct a comparative analysis of various machine learning models and to explore sentiment trends over time within these discussions. To achieve these goals, a combination of conventional machine learning techniques and an LSTM model were employed.
