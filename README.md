@@ -17,14 +17,15 @@ This repository contains the code and documentation for a project focused on acc
 The project's key achievements include:
 
 - Implementing a comprehensive sentiment analysis framework for AI-related Reddit discussions.
-- Utilizing Scikit-Learn, Keras, VADER, and LSTM for building and training sentiment classification models.
+- Utilizing multiple libraries, such as Scikit-Learn, for building and training sentiment classification models.
 - Conducting a thorough comparative analysis of different machine learning models to determine their effectiveness in sentiment classification.
 - Exploring and visualizing sentiment trends over time to gain insights into how sentiments have evolved in AI-related discussions.
 
 ### Model Performance:
 Two notable models were developed and evaluated:
-Combined CNN + LSTM Model: Achieved an impressive F1 Score of 0.839.
-Linear SVC Model: Achieved a competitive F1 Score of 0.82.
+Logistic Regression: Achieved a F1 Score of 0.71, with the positive class achieving 0.77.
+Linear SVC Model: Achieved F1 Score of 0.73.
+BERT: Achieved a competitive F1 Score of 0.80.
 
 ### Technologies Used and Skills Applied:
 The project leveraged a range of technologies and skills, including but not limited to:
@@ -32,6 +33,7 @@ The project leveraged a range of technologies and skills, including but not limi
 - Keras: Employed to construct and train the LSTM model for sentiment classification.
 - VADER: Used for the sentiment analysis of textual data.
 - Long Short-term Memory (LSTM): A type of recurrent neural network well-suited for sequence-based tasks.
+- BERT: Bidirectional transformer pre-trained using a combination of masked language modeling and next sentence prediction
 
 
 
